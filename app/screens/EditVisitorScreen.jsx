@@ -9,7 +9,6 @@ export default function EditVisitorScreen() {
   const route = useRoute();
   const navigation = useNavigation();
   const { visitor, updateVisitor } = route.params;
-
   const [name, setName] = useState(visitor.name);
   const [phone, setPhone] = useState(visitor.phone);
   const [email, setEmail] = useState(visitor.email);
